@@ -2,7 +2,7 @@
 
 - include: STAR.yml version=2.5.0c bin_dir=STAR-{{ version }}/bin
 - include: rnasik-pipe.yml version=1.2 bin_dir=RNAsik-pipe-{{ version }}/src
-- include: htslib.yml version=1.2
+- include: htslib.yml version=1.2 bin_dir=htslib-{{version}}/bin
 - include: samtools.yml version=1.2 htslib_version=1.2 bin_dir=samtools-{{ version }}/bin
 - include: picard.yml version=1.129 bin_dir=picard-tools-{{ version }}/bin
 - include: featureCounts.yml version=1.5.0-p1 bin_dir=subread-{{ version }}-source/bin
